@@ -1,0 +1,76 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin:0;
+}
+
+ .container{
+  width: 1000px;
+  height: 1200px;
+  position: absolute;
+}
+
+.ipad {
+
+  position: relative;
+  width: 300px;
+  height: 372px;
+}
+.discount {
+background-color: green;
+width: 35px;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+img {
+position: relative;
+}
+
+.imgsmartphone {
+
+  display: inline;
+
+}
+
+.smartphone {
+  position: relative;
+  width: 300px;
+  height: 372px;
+  left: 303px;
+  top:-372px;
+}
+
+.cuffie {
+
+  position: relative;
+  width: 300px;
+  height: 372px;
+  left: 606px;
+  top:-744px;
+}
+
+.smartphone2 {
+  position: relative;
+  width: 300px;
+  height: 372px;
+  left: 303px;
+  top:-372px;
+}
+
+.cuffie2 {
+
+  position: relative;
+  width: 300px;
+  height: 372px;
+  left: 606px;
+  top:-744px;
+}
+
+.ipad2 {
+
+  position: relative;
+  width: 300px;
+  height: 372px;
+}
