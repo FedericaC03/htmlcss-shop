@@ -5,72 +5,55 @@ margin:0;
 }
 
  .container{
-  width: 1000px;
-  height: 1200px;
-  position: absolute;
+  margin: auto;
+  border:10px solid black;
+  width:940px;
 }
 
 .ipad {
-
+  display: inline-block;
   position: relative;
-  width: 300px;
-  height: 372px;
 }
+
+.smartphone {
+  display: inline-block;
+  position: relative;
+}
+
+.cuffie {
+  display: inline-block;
+  position: relative;
+}
+
 .discount {
 background-color: green;
-width: 35px;
 position: absolute;
 top: 0;
 right: 0;
 }
 
-img {
-position: relative;
+.red{
+  background-color: red;
 }
 
-.imgsmartphone {
-
-  display: inline;
-
+.heart {
+position: absolute;
+bottom: 0;
+right: 48%;
+font-size: 40px;
+opacity:0;
 }
 
-.smartphone {
-  position: relative;
-  width: 300px;
-  height: 372px;
-  left: 303px;
-  top:-372px;
+.heart:hover {
+  color: red;
+  opacity:1;
 }
 
-.cuffie {
-
-  position: relative;
-  width: 300px;
-  height: 372px;
-  left: 606px;
-  top:-744px;
+.secondariga{
+  margin-top:20px;
+  padding-left: 6px;
 }
 
-.smartphone2 {
-  position: relative;
-  width: 300px;
-  height: 372px;
-  left: 303px;
-  top:-372px;
-}
-
-.cuffie2 {
-
-  position: relative;
-  width: 300px;
-  height: 372px;
-  left: 606px;
-  top:-744px;
-}
-
-.ipad2 {
-
-  position: relative;
-  width: 300px;
-  height: 372px;
+.primariga {
+  padding-left: 6px;
 }
